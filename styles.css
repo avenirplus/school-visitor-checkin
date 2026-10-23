@@ -11,3 +11,8 @@
 .session-option-value{margin:0;font-size:20px;font-weight:800;line-height:1.55;overflow-wrap:anywhere}
 .session-option-note{margin:7px 0 0;font-size:13px;font-weight:600;color:#435b4b}
 @media(max-width:620px){.details .session-option{padding:12px}.session-option-value{font-size:18px}}
+
+/* Explicit attention state for uncertain form answers */
+.details .session-option.session-option-warning{border-color:#c58d3f;background:#fff6e8;color:#75460e}
+.session-option-warning .session-option-note{color:#824511}
+.details .party-warning{display:inline-flex;align-items:center;flex-wrap:wrap;gap:4px;border:1px solid #c58d3f;border-radius:9px;padding:6px 10px;background:#fff6e8;color:#75460e;font-weight:750}
