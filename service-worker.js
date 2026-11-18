@@ -1,4 +1,4 @@
-const CACHE = 'school-visitor-checkin-v8';
+const CACHE = 'school-visitor-checkin-v9';
 const ASSETS = [
   './',
   './index.html',
